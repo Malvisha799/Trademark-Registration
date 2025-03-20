@@ -83,7 +83,7 @@
                 <a class="navbar-brand" href="/"
                   ><span class="India Certify"></span>
                   <img
-                    src="logo.svg"
+                    src="/images/logo.svg"
                     height="38"
                     alt="India Certify logo"
                   />
@@ -877,103 +877,6 @@
                 brand's protection.
             </p>
 
-            <!-- Benefits Section -->
-            <div class="benefits1 glass-effect">
-                <h3>What You'll Get</h3>
-                <div class="benefits-grid1">
-                  <div class="benefit-item1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="check-icon"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    <span>Free Business Bank Account</span>
-                  </div>
-                  <div class="benefit-item1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="check-icon"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    <span>GST Registration Included</span>
-                  </div>
-                  <div class="benefit-item1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="check-icon"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    <span>Digital Signature Certificate</span>
-                  </div>
-                  <div class="benefit-item1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="check-icon"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    <span>1-Year Compliance Support</span>
-                  </div>
-                  <div class="benefit-item1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="check-icon"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    <span>Legal Documentation</span>
-                  </div>
-                  <div class="benefit-item1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="check-icon"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    <span>Business Advisory</span>
-                  </div>
-                </div>
-              </div>
-
             <!-- Action Buttons -->
             <div class="action-buttons">
               <button id="watchVideoBtn" class="btn1 btn-blue">
@@ -998,33 +901,23 @@
 
           <!-- Eligibility Check Form -->
           <div class="form-container1">
-            <h2>
+            <div class="eligibility-checker-container">
+            <div class="eligibility-checker-header">
+             <h2>
                 <i data-lucide="shield" class="icon blue"></i>
                 Check Your Eligibility
-            </h2>
+             </h2>
+           </div>
             
+           <div class="eligibility-checker-content">
+            <p style="font-size: 1.11rem; margin-bottom: 15px;">
+              Find out if your business needs to register for GST based on
+              your business type and turnover.
+            </p>
             <form id="eligibilityForm" class="eligibility-form">
                 <div class="form-group1">
                     <label for="businessType">Are you a business entity, individual, or organization planning to conduct business?</label>
                     <select id="businessType" name="businessType" required>
-                        <option value="">Select an answer</option>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-
-                <div class="form-group1">
-                    <label for="markType">Do you have a distinctive mark (name, logo, or symbol) for your goods/services?</label>
-                    <select id="markType" name="markType" required>
-                        <option value="">Select an answer</option>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-
-                <div class="form-group1">
-                    <label for="existingBusiness">Are you currently using or planning to use this mark in commerce?</label>
-                    <select id="existingBusiness" name="existingBusiness" required>
                         <option value="">Select an answer</option>
                         <option value="yes">Yes</option>
                         <option value="no">No</option>
@@ -1048,29 +941,13 @@
                         <option value="no">No</option>
                     </select>
                 </div>
-
-                <div class="form-group1">
-                    <label for="goodsServices">Can you clearly identify the goods/services associated with your mark?</label>
-                    <select id="goodsServices" name="goodsServices" required>
-                        <option value="">Select an answer</option>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-
-                <div class="form-group1">
-                    <label for="legalCompliance">Are you willing to comply with all legal requirements for trademark registration?</label>
-                    <select id="legalCompliance" name="legalCompliance" required>
-                        <option value="">Select an answer</option>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-
+                
                 <button type="submit" class="submit-button">Check Eligibility</button>
             </form>
+           </div>
 
             <div id="resultMessage" class="result-message hidden"></div>
+          </div>
           </div>
          </div>
         </div>
@@ -2166,7 +2043,7 @@
           </div>
 
           <div class="footer-logo">
-            <img src="Final Word-25.png" alt="India Certify Logo" />
+            <img src="/images/Final Word-25.png" alt="India Certify Logo" />
           </div>
 
           <div class="nav-section">
